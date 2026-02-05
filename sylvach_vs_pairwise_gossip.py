@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sylvach vs Pairwise Gossip Benchmark – Single-file Master Version
+Sylvach vs Pairwise Gossip Benchmark
 =================================================================
 
 Distributed consensus on vectors or symmetric matrices.
@@ -20,26 +20,6 @@ Features:
 - Console summary table
 - Designed for large N (10k–500k nodes possible in scalar mode)
 - Easy to extend: add gossip topologies, approximate mean estimation, plots, etc.
-
-Quick start examples:
-    # Medium scale – good starting point
-    python sylvach_vs_pairwise_gossip.py --nodes 10000 --dim 6 --runs 5
-
-    # Fast scaling test (very large n)
-    python sylvach_vs_pairwise_gossip.py --nodes 200000 --scalar --runs 8 --max-iter 4000
-
-    # Over-relaxation sweep
-    python sylvach_vs_pairwise_gossip.py --nodes 8000 --dim 5 --alpha 0.4,0.7,1.0,1.3,1.7 --runs 6
-
-Expected observations at n=10,000:
-- Pairwise gossip               → hundreds to low thousands iterations (≈ O(n log n))
-- Sylvach (good α)              → iterations almost independent of n
-- Wall-clock: Sylvach more expensive per iter (global .mean()), but fewer iters
-
-Author notes (2026): This is the consolidated master version after several iterations.
-                     Ready for GitHub README demo or arXiv supplement.
-
-License: MIT (feel free to use/modify)
 """
 
 import argparse
@@ -281,4 +261,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
