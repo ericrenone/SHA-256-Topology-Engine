@@ -1,42 +1,13 @@
-# Sylvach Kinetic Tracker: 2D Map
-
-**Focus:** Low-Resource Federated Learning, Decentralized Systems, Fixed-Point Dynamics
-
----
-
-## Overview
-**Sylvach Kinetic Tracker** is a **real-time visualization tool** for analyzing **fixed-point contraction dynamics** in large-scale decentralized systems. It simulates **1,000 nodes** in a 2D phase-space, tracking:
-- **Contraction velocity** (how quickly nodes converge).
-- **Phase coherence** (alignment toward the fixed point).
-- **Stability tension** (distribution of nodes).
-- **SHA-256 state delta** (cryptographic fingerprint of system state).
-
-**Designed for:** Federated learning (FL) and decentralized optimization in **low-resource, large-scale networks.**
-
----
-
-## Features
-
-### 1. **Fixed-Point Contraction Mapping**
-- Uses **Banach fixed-point theorem** to model node convergence.
-
-### 2. **2D Phase-Space Visualization**
-- **Contour map** of the potential field.
-- **Node swarm** with heatmap coloring (proximity to attractor).
-- **Fixed-point marker** (red cross) for the global attractor.
-
-### 3. **Dynamic Telemetry HUD**
-- **4 Metrics Panels**:
-  - **Contraction Velocity**: Speed of node convergence.
-  - **Phase Coherence**: Alignment of node movement toward the fixed point.
-  - **Stability Tension**: Standard deviation of node distribution.
-  - **SHA-256 State Delta**: Cryptographic fingerprint of system state.
-
-### 4. **Low-Resource Design**
-- Optimized for **communication, memory, and energy efficiency**.
-
-### 5. **Production-Ready**
-- Smooth animation, fixed scaling, and clean visuals.
-- Configurable parameters for adaptability.
+# Cryptographically Anchored Stochastic Node Dynamics
 
 
+## Core
+This system implements a continuous-time stochastic evolution of $10^5$ nodes within a constrained 2D manifold. It serves as a high-cardinality demonstration of **Cryptographic Anchoring**—the process of tethering a high-dimensional, chaotic physical state to a discrete, immutable 256-bit digest.
+
+By mapping infinitesimal physical fluctuations to a SHA-256 hash space, the simulation visualizes the **Avalanche Effect**: where a change at the level of machine epsilon ($10^{-16}$) results in a statistically uncorrelated cryptographic identity.
+
+
+
+## Conclusion
+
+Provides a deterministic ledger of an otherwise unpredictable system, proving that while the motion of the nodes is fluid, their identity at any given millisecond is unique, immutable, and mathematically verifiable.
