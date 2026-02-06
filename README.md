@@ -11,4 +11,5 @@ By mapping infinitesimal physical fluctuations to a SHA-256 hash space, the simu
 ## Conclusion
 
 Provides a deterministic ledger of an otherwise unpredictable system, proving that while the motion of the nodes is fluid, their identity at any given millisecond is unique, immutable, and mathematically verifiable.
+
 Fixed-point arithmetic offers a faster yet sufficiently accurate alternative to FP64, balancing computational efficiency with numerical fidelity in large, noisy simulations.
